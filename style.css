@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+.box {
+	display:block;
+	height:auto;
+	overflow:hidden;
+}
+.fleft {
+	float:left;
+}
+.fright {
+	float:right;
+}
+.fcenter {
+	margin:0 auto;
+}
+.fwidth {
+	width:100%;
+}
+*, p, a {
+	margin:0px;
+	padding:0px;
+}
+a {
+	text-decoration:none;
+	outline:none;
+}
+.ocultar {
+	display:none;
+	visibility:hidden;
+}
+.mostrar {
+	display:block;
+	visibility:visible;
+}
+body {
+	background:url(img/fondo-gen.jpg) repeat;
+}
+header {
+	padding:20px 0px;
+	background:url(img/fondo-header.jpg) repeat;
+}
+.item-entrevista {
+	margin:20px 0px;
+	opacity:.5;
+}
+.item-entrevista img {
+	max-width:80%;
+}
+.active {
+	opacity:1;
+}
+footer #sharer {
+	padding:20px 0px;
+}
